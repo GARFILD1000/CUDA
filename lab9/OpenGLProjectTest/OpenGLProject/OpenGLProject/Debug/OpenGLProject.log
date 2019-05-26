@@ -1,0 +1,23 @@
+﻿  main.cpp
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" противоречит использованию других библиотек; используйте параметр /NODEFAULTLIB:library
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRT" противоречит использованию других библиотек; используйте параметр /NODEFAULTLIB:library
+sh_template.obj : warning LNK4049: импортирован локально определенный символ ___glewAttachShader
+sh_template.obj : warning LNK4049: импортирован локально определенный символ ___glewCompileShader
+sh_template.obj : warning LNK4049: импортирован локально определенный символ ___glewCreateProgram
+sh_template.obj : warning LNK4049: импортирован локально определенный символ ___glewCreateShader
+sh_template.obj : warning LNK4049: импортирован локально определенный символ ___glewGetProgramiv
+sh_template.obj : warning LNK4049: импортирован локально определенный символ ___glewGetShaderiv
+sh_template.obj : warning LNK4049: импортирован локально определенный символ ___glewLinkProgram
+sh_template.obj : warning LNK4049: импортирован локально определенный символ ___glewShaderSource
+util_template.obj : warning LNK4049: импортирован локально определенный символ ___glewBindBuffer
+util_template.obj : warning LNK4049: импортирован локально определенный символ ___glewBufferData
+util_template.obj : warning LNK4049: импортирован локально определенный символ ___glewDeleteBuffers
+util_template.obj : warning LNK4049: импортирован локально определенный символ ___glewGenBuffers
+util_template.obj : warning LNK4049: импортирован локально определенный символ ___glewDeleteProgram
+util_template.obj : warning LNK4049: импортирован локально определенный символ ___glewDisableVertexAttribArray
+util_template.obj : warning LNK4049: импортирован локально определенный символ ___glewEnableVertexAttribArray
+util_template.obj : warning LNK4049: импортирован локально определенный символ ___glewGetAttribLocation
+util_template.obj : warning LNK4049: импортирован локально определенный символ ___glewUseProgram
+util_template.obj : warning LNK4049: импортирован локально определенный символ ___glewVertexAttribPointer
+util_template.obj : error LNK2019: ссылка на неразрешенный внешний символ _gluErrorString@4 в функции "void __cdecl checkErrors(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkErrors@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+D:\YandexDisk\Programming\CUDA\lab9\OpenGLProject\OpenGLProject\Debug\OpenGLProject.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
